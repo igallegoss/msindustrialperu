@@ -1,0 +1,75 @@
+/* Portfolio Section */
+#Material-portfolio {
+	.mix {
+		padding-bottom: 30px;
+		display: none;
+		margin: -2px;
+	}
+}
+.portfolio-nav{
+	ul.nav {
+		float: right;
+		li {
+			a {
+				font-size: 15px;
+				color: #333;
+				background-color: #eee;
+				padding: 7px 12px;
+				margin: 4px;
+				display: block;
+				border-radius: 2px;
+				text-transform: capitalize;
+				cursor: pointer;
+			  &:hover {
+			  	background: #2196F3;
+				color: #FFF;
+				box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+			  }
+			}	
+			
+		} 
+		li a.active{
+			background: #2196F3;
+			color: #FFF;
+			box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+		}
+	}
+}
+figure{
+	position: relative;
+	margin: 0;
+	overflow: hidden;
+	img {
+		width: 100%;
+	}
+	figcaption {
+		background: #fff;
+	    bottom: 0px;
+	    padding: 0 20px;
+	    position: absolute;
+	    width: 100%;
+	    margin-bottom: -15px;
+	    opacity: 0;
+	    transition: height 0.5s ease 0s;
+	    h2 {
+	    	text-transform: capitalize;
+			transition: all 0.5s ease 0s;
+	    }
+	    a.btn {
+		    float: right;
+		    position: absolute;
+		    right: 0px;
+		    top: 25px;
+		    width: 20px !important;
+		    transition: all 0.5s ease 0s;
+		}
+
+	}
+	&:hover figcaption {
+		transition: all 0.5s ease 0s;
+		cursor: pointer;
+		opacity: 1;
+		margin-bottom: 0px;
+	}
+}
+

@@ -1,0 +1,105 @@
+/* Contact Map */
+#conatiner-map {
+    width: 100%;
+    height: 480px;
+}
+.contact-widget-section {
+	.single-contact-widget {
+		background: #f9f9f9;
+		padding: 20px 25px;
+		@include team-box-shadow;
+		height: 260px;
+		margin-top: 25px;
+		transition: all 0.3s ease-in-out;
+		i {
+			font-size: 75px;
+		}
+		h3 {
+			font-size: 20px;
+			font-weight: 700;
+			padding-bottom: 10px;
+		}
+		p {
+			line-height: 16px;
+		}
+		&:hover {
+			background: #fff;
+			@include team-box-shadow-hover();
+			cursor: pointer;
+			transition: all 0.3s ease-in-out;
+		}
+	}
+}
+/* Contact Form */
+#contactForm {
+	margin-top: -10px;
+	  .form-group label.control-label {
+	  	color: #8c8c8c;
+	  }
+	  .form-control {
+		font-weight: 500;
+		height: auto;
+	  }
+
+}
+
+.google-map-container {
+	@include team-box-shadow();
+	#google-map-contact {
+		height: 300px;
+	}
+}
+.contact-widget-section2 {
+	h2 {
+		margin-bottom: 30px;
+	}
+	.find-widget {
+		padding: 10px 0;
+		a {
+			color: #333;
+			font-size: 14px;
+		}
+		i {
+		    width: 40px;
+		    height: 40px;
+		    color: #fff;
+		    font-size: 20px;
+		    text-align: center;
+		    line-height: 40px;
+		    margin-right: 15px;
+		    border-radius: 2px;
+		    display: inline-block;
+		    @include icon-shadow();
+		}
+	}
+}
+
+.Material-contact-section{
+	 ul{
+	 	margin: 0;
+	 	padding: 0;
+	 	list-style: none;
+	 	li{
+	 		color: #777;
+			font-size: 13px;
+			line-height: 20px;
+			margin-bottom: 28px;
+			min-height: 35px;
+			width: 100%;
+		  	i{
+		  		width: 35px;
+				background: #f50057;
+				height: 35px;
+				border: 1px solid #f50057;
+				border-radius: 2px;
+				line-height: 30px;
+				float: left;
+				color: #fff;
+				text-align: center;
+				font-size: 18px;
+				top: 4px;
+				margin-right: 10px;
+		  	}
+	  	}
+	}
+}

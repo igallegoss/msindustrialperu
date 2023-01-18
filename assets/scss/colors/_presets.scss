@@ -1,0 +1,79 @@
+//All Preset color variables are here
+
+// Pink
+ $pink: #E91E63;
+ $pink-dark: #AD1457;
+ $pink-70: rgba(233, 30, 99, 0.7);
+ $pink-90: rgba(233, 30, 99, 0.9);
+ $pink-20: rgba(233, 30, 99, 0.2);
+ $pink-slider: rgba(233, 30, 99, 0.66);
+
+ // Green
+ $green: #43A047;
+ $green-dark: #308233;
+ $green-70: rgba(67, 160, 71, 0.7);
+ $green-90: rgba(67, 160, 71, 0.9);
+ $green-20: rgba(67, 160, 71, 0.2);
+ $green-slider: rgba(67, 160, 71, 0.66);
+
+  // Yellow
+ $yellow: #FB8C00;
+ $yellow-dark: #da7c05;
+ $yellow-70: rgba(251, 140, 0, 0.7);
+ $yellow-90: rgba(251, 140, 0, 0.9);
+ $yellow-20: rgba(251, 140, 0, 0.2);
+ $yellow-slider: rgba(251, 140, 0, 0.66);
+
+
+
+// Purple
+ $purple: #9C27B0;
+ $purple-dark: #6A1B9A;
+ $purple-70: rgba(156, 39, 176, 0.7);
+ $purple-90: rgba(156, 39, 176, 0.9);
+ $purple-20: rgba(156, 39, 176, 0.2);
+ $purple-slider: rgba(156, 39, 176, 0.66);
+
+// Deep Purple
+ $deep-purple: #673AB7;
+ $deep-purple-dark: #4527A0;
+ $deep-purple-70: rgba(103, 58, 183, 0.7);
+ $deep-purple-90: rgba(103, 58, 183, 0.9);
+ $deep-purple-20: rgba(103, 58, 183, 0.2);
+ $deep-purple-slider: rgba(103, 58, 183, 0.66);
+
+// Indigo
+ $indigo: #3F51B5;
+ $indigo-dark: #283593;
+ $indigo-70: rgba(63, 81, 181, 0.7);
+ $indigo-90: rgba(63, 81, 181, 0.9);
+ $indigo-20: rgba(63, 81, 181, 0.2);
+ $indigo-slider: rgba(63, 81, 181, 0.66);
+
+// Blue
+ $blue: #2196F3;
+ $blue-dark: #1565C0;
+ $blue-70: rgba(33, 150, 243, 0.7);
+ $blue-90: rgba(33, 150, 243, 0.9);
+ $blue-20: rgba(33, 150, 243, 0.2);
+ $blue-slider: rgba(33, 150, 243, 0.66);
+
+//Red
+ $red: #e53935;
+ $red-dark: #d8322f;
+ $red-70: rgba(229, 57, 53, 0.7);
+ $red-90: rgba(229, 57, 53, 0.9);
+ $red-20: rgba(229, 57, 53, 0.2);
+ $red-slider: rgba(229, 57, 53, 0.66);
+
+
+
+/*You can add your won color also */
+
+//Current Preset Declareation
+ $preset:  $yellow;
+ $preset-dark:  $yellow-dark;
+ $preset-70:  $yellow-70;
+ $preset-90:  $yellow-90;
+ $preset-20:  $yellow-20;
+ $preset-slider:  $yellow-slider;

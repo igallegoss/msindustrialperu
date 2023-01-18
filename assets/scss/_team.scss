@@ -1,0 +1,167 @@
+/* Team Section */
+.Material-our-team-section {
+	padding-bottom: 200px;
+}
+.single-team-widget {
+	background: #f5f5f5;
+	position: relative;
+	@include team-box-shadow;
+	margin-bottom: 20px;
+	img {
+		text-align: center;
+	}
+	&:hover {
+		@include pricing-box-shadow();
+	}
+	p{
+		color: #999;
+		font-size: 12px;
+		text-transform: uppercase;
+		font-weight: 400;
+		margin-bottom: 5px;
+	}
+	.team-member-info {
+		height: 130px;
+		.know-more {
+			position: absolute;
+			right: 10%;
+			bottom: 12%;
+			display: none;
+		}
+		background: #fff;
+		padding: 5px 20px;
+		.social-profiles {
+			.mdi {
+			    color: #8c8c8c;
+			    font-size: 18px;
+			    padding-right: 5px;
+			    transition: $transition;
+			}
+			.mdi.mdi-twitter {
+				&:hover {
+					transition: $transition;
+					color: #1DA1F2;
+				}
+			}
+			.mdi.mdi-facebook {
+				&:hover {
+					transition: $transition;
+					color: #3B5998;
+				}
+			}
+			.mdi.mdi-dribbble {
+				&:hover {
+					transition: $transition;
+					color: #EA4C89;
+				}
+			}
+			.mdi.mdi-linkedin {
+				&:hover {
+					transition: $transition;
+					color: #1769FF;
+				}
+			}
+		}
+
+	}
+	&:hover {
+		cursor: pointer;
+		.know-more{
+			display: block;
+			animation: 0.4s ease 0s normal none 1 running fadeInUpMenu;
+
+		}
+	}
+}
+
+.team-single{
+	.team-thumb{
+		text-align: center;
+		img{
+			border: 4px solid #fff;
+    		box-shadow: 0 0 4px rgba(0,0,0,0.14), 0 4px 8px rgba(0,0,0,0.28);
+		}
+	}
+	.team-text{
+		h3{
+			font-size: 30px;
+			color: #404040;
+			text-transform: uppercase;
+			margin-bottom: 10px;
+		}
+		h5{
+			color: #999;
+			margin-bottom: 30px;
+		}
+	}
+	.social-single{
+		margin-top: 30px;
+		a{
+			i{
+				width: 48px;
+			    font-size: 24px;
+			    height: 48px;
+			    text-align: center;
+			    line-height: 48px;
+			    display: inline-block;
+			    background: #5065d8;
+			    border-radius: 3px;
+			    margin-right: 10px;
+			    color: #fff;
+			}
+			
+		}
+		.mdi.mdi-twitter {
+			&:hover {
+				transition: $transition;
+				background: #1DA1F2;
+			}
+		}
+		.mdi.mdi-facebook {
+			&:hover {
+				transition: $transition;
+				background: #3B5998;
+			}
+		}
+		.mdi.mdi-dribbble {
+			&:hover {
+				transition: $transition;
+				background: #EA4C89;
+			}
+		}
+		.mdi.mdi-linkedin {
+			&:hover {
+				transition: $transition;
+				background: #1769FF;
+			}
+		}
+	}
+}
+.single-about{
+	h3{
+		font-size: 20px;
+		margin-bottom: 20px;
+	}
+	p{
+		color: #999;
+	}
+}
+#team-slide{
+	.owl-carousel .owl-controls .owl-page span{
+		background: #ddd;
+	}
+	.owl-carousel .owl-controls .owl-page.active span{
+		color: #5166d8!important;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+

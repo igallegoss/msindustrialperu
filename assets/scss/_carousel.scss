@@ -1,0 +1,54 @@
+/* Image Carousel */
+#Material-image-carousel {
+	.owl-pagination {
+		text-align: center;
+		margin-top: 10px;
+	}
+	.owl-controls{
+		position: absolute;
+		top: 45%;
+		display: inline-block;
+		width: 100%;
+		.owl-buttons div.owl-prev{
+			left: -42px;
+			position: absolute;
+		}
+		.owl-buttons div.owl-next{
+			right: -42px;
+			position: absolute;
+		}		
+	}
+}
+#team-carousel {
+	.owl-pagination {
+		text-align: center;
+		margin-top: 10px;
+	}
+}
+.owl-theme .owl-buttons div{
+	width: 40px;
+	height: 40px;
+	display: block !important;
+	background: #5166d8 !important;
+	text-align: center;
+	display: inline-block;
+	opacity: 1 !important;
+	border-radius: 0 !important;
+	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.18), 0 2px 5px 0 rgba(0, 0, 0, 0.15);
+	transition: all 0.4s ease-in-out;
+	-moz-transition: all 0.4s ease-in-out;
+	-webkit-transition: all 0.4s ease-in-out;
+	-o-transition: all 0.4s ease-in-out;
+}
+.owl-theme .owl-buttons div i{
+	color: #fff;
+	font-size: 16px;
+	line-height: 40px;
+}
+.touch-slider .owl-controls .owl-buttons div i{
+	color: #333;
+	display: block;
+	&:hover{
+		color: #fff!important;
+	}
+}

@@ -1,0 +1,199 @@
+// Color Preset
+@import "presets";
+
+a{
+	color: $preset;
+	&:hover{
+		color: $preset-dark;
+	}
+}
+.section-titile-bg {
+  color: $preset;
+}
+.Material-section-quote blockquote {
+  border-left-color: $preset;
+}
+// Button Styles
+.btn-common {
+    background: $preset;
+    &:hover , &:focus {
+    	background: $preset-dark !important;
+    }
+}
+.btn-round {
+  background: $preset !important;
+  &:hover {
+    background: $preset-dark !important;
+  }
+}
+/* ScrollToTop */
+a.back-to-top{
+  i {
+	  background-color: $preset;
+	}
+}
+#main-slide .carousel-control i{
+    background: $preset;
+}
+
+.okayNav__menu-toggle span {
+  background: $preset;
+}
+.navbar-default {
+
+}
+li.sub-menu .sub-menu-panel a:hover, li.sub-menu .sub-menu-panel a:focus, li.sub-menu .sub-menu-panel a.active{
+  border-left: 3px solid $preset;
+}
+.okayNav__menu-toggle.icon--active span {
+  background: $preset;
+}
+#nav-main li.active a.nav-link {
+  border-bottom: 3px solid $preset !important;
+  color: $preset;
+  &:hover {
+  	color: $preset-70;
+  }
+}
+.work-counter-widget {
+	i {
+	    color: $preset;
+	}
+}
+.about-widget {
+	i {
+	  color: $preset;
+	}
+	&:hover {
+		i {
+			background: $preset;
+		}
+	}
+}
+.single-blog-post {
+	.post-meta {
+		a {
+			&:hover {
+				color: $preset;
+			}
+		}
+	}
+}
+
+.contact-widget-section {
+	.single-contact-widget {
+		i {
+			color: $preset;
+		}
+	}
+}
+#contactForm {
+	  .form-control {
+		color: $preset;
+	  }
+}
+
+.footer-contact-widget {
+
+		ul {
+
+			li {
+				a {
+					.fa {
+					    background: $preset;
+					}
+				}
+			}
+		}
+	}
+.portfolio-nav{
+	ul.nav {
+		li {
+
+			a {
+			  &:hover {
+			  	color: $preset;
+			  }
+			  &.active {
+			  	border-bottom: 2px solid $preset;
+				color: $preset;
+			  }
+			}
+		}
+	}
+}
+.single-service-widget {
+	i {
+	    color: $preset;
+	}
+}
+#testimonial-carousel {
+	.owl-pagination {
+		.owl-page {
+			&.active span {
+				background: $preset;
+			}
+		}
+	}
+}
+
+.form-submit button.btn-common.disabled {
+    background:  $preset-70 !important;
+    cursor: not-allowed;
+}
+.owl-carousel .owl-controls .owl-page.active span {
+	border: none;
+	background: $preset !important;
+	opacity: 1;
+}
+.Material-tab-default {
+	ul.nav.nav-tabs {
+		li.active {
+			a {
+				color: $preset;
+				border-bottom: 3px solid $preset;
+			}
+		}
+	}
+}
+.Material-default-accordion {
+	.panel-default {
+		.panel-heading {
+			a {
+			    background-color: $preset;
+			}
+	    }
+	}
+
+}
+.icon-round , .icon-box {
+    background: $preset;
+}
+.icon-common {
+	color: $preset;
+}
+.price span {
+  color: $preset;
+}
+.pricing-button {
+		a.btn-pricing {
+		background-color: $preset;
+	}
+}
+.Material-error-section  {
+	h1 {
+    color: $preset;
+    }
+}
+.comment-box {
+	.form-control  , textarea {
+		font-weight: 500;
+		color: $preset;
+	}
+}
+.find-widget {
+		padding: 10px 0;
+		i {
+		    background: $preset;
+		}
+	}

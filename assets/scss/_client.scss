@@ -1,0 +1,18 @@
+/* Client Logo */
+.client{
+  border-bottom: 1px solid #e9e9e9;
+  .client-logo{  
+    text-align: center;
+    transition: all 0.2s ease-in-out 0s;
+    img {
+      transition: all 0.2s ease-in-out 0s;
+    }
+    &:hover , &.active {
+      transition: all 0.2s ease-in-out 0s;
+      img {
+        cursor: pointer;
+        transition: all 0.2s ease-in-out 0s;
+      }
+    }
+  }
+}

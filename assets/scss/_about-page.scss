@@ -1,0 +1,48 @@
+/* Work Counter Section */
+.work-counter-widget {
+	i{
+	    font-size: 50px;
+	    color: #2196F3;
+	}
+	.counter {
+		z-index: 999999;
+		.timer{
+			color: #333;
+			font-size: 38px;
+			margin-top: 15px;
+			font-weight: 700;
+		}
+		p {
+			margin-top: 19px;
+			font-size: 16px;
+    		font-weight: 700;
+		}
+	}
+
+}
+/* Call To Action */
+.call-to-action-section {
+	padding: 60px 0;
+	background: url(../images/cta-bg.jpg) no-repeat scroll center center;
+	background-size: cover;
+	h1 {
+		color: #18191b;
+		font-size: 56px;
+		font-weight: 700;
+		color: #fff;
+	}
+	h3 {
+		font-size: 24px;
+		color: rgba(255, 255, 255, 0.7);
+		text-transform: uppercase;
+	}
+}
+
+.page-title-section {
+	position: relative;
+	background: url(../images/page-title-bg.jpg) no-repeat scroll center center;
+	background-size: cover;
+	.title-center {
+		padding-top: 65px;
+	}
+}
