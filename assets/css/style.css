@@ -475,9 +475,11 @@ a.back-to-top:focus {
     display: none;
 }
 
+
+/*
 .navbar-brand img {
-    width: 120px;
-}
+    width: 130;
+}*/
 
 .top-nav-collapse {
     background: #fff;
