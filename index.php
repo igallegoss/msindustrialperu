@@ -1,0 +1,190 @@
+<?php
+echo '
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <title>SMIndustrial Perú</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <!-- Meterial Icon CSS -->
+    <link rel="stylesheet" href="assets/css/materialdesignicons.min.css" />
+    <!-- Material CSS -->
+    <link rel="stylesheet" href="assets/css/material.min.css" />
+    <!-- Ripples CSS -->
+    <link rel="stylesheet" href="assets/css/ripples.min.css" />
+    <!-- Owl Carousel CSS -->
+    <link rel="stylesheet" href="assets/css/owl.carousel.css" />
+    <!-- Magnific Popup -->
+    <link rel="stylesheet" href="assets/css/magnific-popup.css" />
+    <!-- Slicknav CSS -->
+    <link rel="stylesheet" href="assets/css/slicknav.css" />
+    <!-- Animate CSS -->
+    <link rel="stylesheet" href="assets/css/animate.css" />
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+
+    <!-- Icono -->
+    <link rel="icon" type="image/png" href="assets/images/about/SMI_icono_web.png" />
+
+    <!-- Color CSS Styles  -->
+    <link rel="stylesheet" type="text/css" href="assets/css/colors/blue.css" media="screen" />
+</head>
+
+<body style="background-color: #090042">
+    <!-- Header Start -->
+    <header id="header">
+        <nav class="navbar navbar-expand-lg fixed-top scrolling-navbar nav-bg">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="mdi mdi-menu"></span>
+                            <span class="mdi mdi-menu"></span>
+                            <span class="mdi mdi-menu"></span>
+                        </button>
+                    <a class="navbar-brand" href="index.html"><img src="assets/images/about/SMI_logo_web.png" alt=""></a>
+                </div>
+                <div class="collapse navbar-collapse" id="main-navbar">
+                    <ul class="navbar-nav mr-auto w-100 justify-content-end">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html" aria-haspopup="true" aria-expanded="false">
+                                    Inicio
+                                </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="pages/about.html" aria-haspopup="true" aria-expanded="false">
+                                    Nosotros
+                                </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="pages/services.html" aria-haspopup="true" aria-expanded="false">
+                                    Servicios
+                                </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="pages/clients.html" aria-haspopup="true" aria-expanded="false">
+                                    Clientes
+                                </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html" aria-haspopup="true" aria-expanded="false">
+                                    contacto
+                                </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Mobile Menu Start -->
+            <ul class="wpb-mobile-menu">
+                <li>
+                    <a class="active" href="index.html">
+                            Inicio
+                        </a>
+                </li>
+                <li>
+                    <a href="pages/about.html">
+                            Nosotros
+                        </a>
+                </li>
+                <li>
+                    <a href="pages/services.html">
+                            Servicios
+                        </a>
+                </li>
+                <li>
+                    <a href="pages/clients.html">
+                            Clientes
+                        </a>
+                </li>
+                <li>
+                    <a href="index.html">
+                            Contacto
+                        </a>
+                </li>
+            </ul>
+            <!-- Mobile Menu End -->
+        </nav>
+    </header>
+    <!-- Header End -->
+
+    <!-- Main Carousel Section Start -->
+    <div id="main-slide" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#main-slide" data-slide-to="0" class="active"></li>
+            <li data-target="#main-slide" data-slide-to="1"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="d-block w-100" src="assets/images/slider/smi_backs_1.png" alt="" />
+                <div class="carousel-caption d-md-block">
+                    <h1 class="animated wow fadeInDown hero-heading" data-wow-delay=".6s">Estamos comprometidos con la excelencia</h1>
+                    <h3 class="animated fadeInUp wow hero-sub-heading" data-wow-delay=".8s">Nos esforzamos por brindar el mejor servicio para nuestros clientes.</h3>
+                    <a href="https://api.whatsapp.com/send?phone=51943512513&text=Hola,%20quisiera%20una%20cotizaci%C3%B3n%20sobre" target="_blank" class="animated fadeInUp wow btn btn-common" data-wow-delay=".8s">
+                            Contáctanos <i class="material-icons mdi mdi-whatsapp"></i>
+                        </a>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="assets/images/slider/smi_backs_2.png" alt="" />
+                <div class="carousel-caption d-md-block">
+                    <h1 class="animated wow fadeInDown hero-heading" data-wow-delay=".6s">Somos una empresa homologada</h1>
+                    <h5 class="animated fadeInUp wow hero-sub-heading" data-wow-delay=".8s">Nuestros colaboradores trabajan con los estándares más altos de calidad.</h5>
+                    <a href="https://drive.google.com/file/d/1crVyZ2fwwuLkvX9fo0C4fsPfryaZ4sOi/view?usp=sharing" target="_blank" class="animated fadeInUp wow btn btn-common" data-wow-delay=".8s">
+                            Nuestro Brochure<i class="material-icons mdi mdi-arrow-top-right"></i>
+                        </a>
+                </div>
+            </div>
+        </div>
+
+        <a class="carousel-control-prev" href="#main-slide" role="button" data-slide="prev">
+            <span class="carousel-control" aria-hidden="true"><i class="mdi mdi-arrow-left" data-ripple-color="#F0F0F0"></i></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#main-slide" role="button" data-slide="next">
+            <span class="carousel-control" aria-hidden="true"><i class="mdi mdi-arrow-right" data-ripple-color="#F0F0F0"></i></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+    <!-- Main Carousel Section End -->
+
+
+
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="loader" id="loader-1"></div>
+    </div>
+    <!-- End Preloader -->
+
+    <!-- Optional JavaScript -->
+    <script src="assets/js/jquery-min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+
+    <script src="assets/js/jquery.mixitup.min.js"></script>
+    <script src="assets/js/jquery.inview.js"></script>
+    <script src="assets/js/jquery.counterup.min.js"></script>
+    <script src="assets/js/scroll-top.js"></script>
+    <script src="assets/js/smoothscroll.js"></script>
+    <script src="assets/js/material.min.js"></script>
+    <script src="assets/js/ripples.min.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="assets/js/form-validator.min.js"></script>
+    <script src="assets/js/contact-form-script.min.js"></script>
+    <script src="assets/js/wow.js"></script>
+    <script src="assets/js/jquery.vide.js"></script>
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <script src="assets/js/jquery.slicknav.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>'
+?>
