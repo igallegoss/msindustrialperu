@@ -262,7 +262,7 @@ a a:focus {
     max-width: 300px;*/
     width: 80%;
     height: auto;
-    padding-top: 20px;
+    padding-top: 0px;
 }
 
 
@@ -794,7 +794,7 @@ a.back-to-top:focus {
 #main-slide .carousel-item img {
     position: relative;
     width: 100%;
-    max-height: 750px;
+    max-height: 960px;
 }
 
 #main-slide .carousel-inner .carousel-item::after {
